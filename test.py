@@ -11,12 +11,12 @@ import numpy as np
 from numpy import *
 import copy
 
-img = cv2.imread('D:/Projects/FYP/image classification/results/5-croped.jpeg')
+img = cv2.imread('D:/Projects/FYP/Tea Leave Image Evaluation/results/5-croped.jpeg')
 h,w,_=img.shape
 original_image = copy.copy(img)
 cv2.imshow("gray",cv2.cvtColor(img, cv2.COLOR_RGB2GRAY))
 # Histogram qualization of the image
-img_to_yuv = cv2.cvtColor(img,cv2.cv2.COLOR_BGR2YCrCb)
+img_to_yuv = cv2.cvtColor(img,cv2.COLOR_BGR2YCrCb)
 img_to_yuv[:,:,0] = cv2.equalizeHist(img_to_yuv[:,:,0])
 hist_equalization_result = cv2.cvtColor(img_to_yuv, cv2.COLOR_YCrCb2RGB)
 # apply HSI color model
@@ -42,6 +42,7 @@ res2 = res.reshape((img.shape))
 final = res2#cv2.cvtColor(res2, cv2.COLOR_HLS2RGB)
 
 final_gray = cv2.cvtColor(cv2.cvtColor(final, cv2.COLOR_HLS2RGB), cv2.COLOR_RGB2GRAY)
+cv2.imshow('final_gray', final_gray)
 for i in range(h):
     for j in range(w):
         colorOfPixel=final_gray[i,j]
