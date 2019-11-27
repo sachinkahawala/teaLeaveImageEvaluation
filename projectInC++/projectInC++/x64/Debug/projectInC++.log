@@ -1,0 +1,22 @@
+﻿  Source.cpp
+d:\projects\fyp\c++\projectinc++\projectinc++\source.cpp(124): warning C4244: 'initializing': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+d:\projects\fyp\c++\projectinc++\projectinc++\source.cpp(128): warning C4244: 'argument': conversion from 'int' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+d:\projects\fyp\c++\projectinc++\projectinc++\source.cpp(133): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+d:\projects\fyp\c++\projectinc++\projectinc++\source.cpp(142): warning C4244: '=': conversion from 'int' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+  projectInC++.vcxproj -> D:\Projects\FYP\C++\projectInC++\x64\Debug\projectInC++.exe
