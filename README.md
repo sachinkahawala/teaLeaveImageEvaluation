@@ -4,9 +4,12 @@
  Following methodology is proposed to hilight the tea buds from other leaves.
  
  <p align="center"><img src="https://user-images.githubusercontent.com/25722196/69854725-cf04da80-12af-11ea-8b1b-8d27862a0bbd.png" /></p>
+ 
 ![Image of Yaktocat](https://user-images.githubusercontent.com/25722196/69854725-cf04da80-12af-11ea-8b1b-8d27862a0bbd.png)
+
 Following input image is taken through the above process and the results are being showed and explained in this section.
 
+ <p align="center"><img src="https://user-images.githubusercontent.com/25722196/69854815-0a070e00-12b0-11ea-92ae-891dea871d97.png" /></p>
 ![image](https://user-images.githubusercontent.com/25722196/69854815-0a070e00-12b0-11ea-92ae-891dea871d97.png)
 
 For the input image first step was to equalize the histogram to enhance the features of the image.
